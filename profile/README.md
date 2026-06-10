@@ -81,95 +81,14 @@ npm install @carbon/react @carbon/styles
 
 ## Presentation Factory
 
-The team uses a **Presentation Factory** to version templates, briefs, client
-assets and model associations in Git.
+The **Presentation Factory** versions briefs, templates, client assets and model
+associations in Git, creating reproducible HTML presentation packages without
+local machine dependencies.
 
-Each presentation is assembled from:
-
-- an owner: client or IBM organization;
-- a versioned HTML template;
-- a Markdown brief;
-- explicitly mapped assets;
-- a model alias from the central catalog.
-
-This removes local machine dependencies and allows the same workflow to run in
-CI/CD.
-
-### Repository Architecture
-
-```text
-presentation-factory/
-├── clients/
-│   ├── banco-do-brasil/
-│   │   ├── assets/
-│   │   ├── archive/
-│   │   ├── presentations/
-│   │   ├── templates/
-│   │   └── entity.toml
-│   └── caixa/
-│       ├── assets/
-│       └── entity.toml
-├── organizations/
-│   └── ibm/
-│       ├── assets/
-│       ├── design-systems/
-│       ├── presentations/
-│       └── entity.toml
-├── catalog/
-│   └── models.toml
-├── src/presentation_factory/
-├── tests/
-└── dist/
-```
-
-### Ownership Rules
-
-- Banco do Brasil content belongs in `clients/banco-do-brasil/`.
-- CAIXA content belongs in `clients/caixa/`.
-- IBM assets, design systems and internal presentations belong in
-  `organizations/ibm/`.
-- The generic generation engine stays in `src/`.
-- Generated packages go to `dist/` and are not versioned.
-
-Cross-organization assets are referenced explicitly instead of duplicated:
-
-```toml
-[assets]
-"assets/brand/logo.svg" = "clients/banco-do-brasil/assets/img/logo.svg"
-"assets/partner/logo-dark.svg" = "organizations/ibm/assets/img/logo-dark.svg"
-```
-
-### Model Selection
-
-Models are configured as aliases in `catalog/models.toml`:
-
-```toml
-default = "primary"
-
-[models.primary]
-provider = "watsonx"
-model_id_env = "WATSONX_PRIMARY_MODEL_ID"
-
-[models.alternate]
-provider = "watsonx"
-model_id_env = "WATSONX_ALTERNATE_MODEL_ID"
-```
-
-Model IDs and credentials stay in environment variables or CI/CD secrets.
-Changing models does not require duplicating a presentation or creating a
-branch.
-
-### Commands
-
-```bash
-make list
-make validate
-make test
-make build PRESENTATION=bb-dirco-workshop MODEL=primary
-```
-
-The generated package contains the resolved brief, prompt, manifest and an
-isolated HTML workspace.
+- [Read the complete documentation](https://github.com/ce-bsb/docs)
+- [Access the Presentation Factory](https://github.com/ce-bsb/presentation-factory)
+- [View templates and client assets](https://github.com/ce-bsb/presentation-factory/tree/main/clients)
+- [View the model catalog](https://github.com/ce-bsb/presentation-factory/blob/main/catalog/models.toml)
 
 ---
 
