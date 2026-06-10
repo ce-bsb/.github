@@ -85,7 +85,7 @@ The **Presentation Factory** versions briefs, templates, client assets and model
 associations in Git, creating reproducible HTML presentation packages without
 local machine dependencies.
 
-- [Read the complete documentation](https://github.com/ce-bsb/docs)
+- [Read the complete documentation](https://ce-bsb.github.io/docs/)
 - [Access the Presentation Factory](https://github.com/ce-bsb/presentation-factory)
 - [View templates and client assets](https://github.com/ce-bsb/presentation-factory/tree/main/clients)
 - [View the model catalog](https://github.com/ce-bsb/presentation-factory/blob/main/catalog/models.toml)
