@@ -4,9 +4,9 @@
 
 <br>
 
-![Carbon](https://img.shields.io/badge/Carbon-Design%20System-0f62fe?style=for-the-badge&logo=ibm&logoColor=white)
-![IBM Plex](https://img.shields.io/badge/IBM%20Plex-Typography-161616?style=for-the-badge)
-![PowerPoint Free](https://img.shields.io/badge/PowerPoint-FREE%20ZONE-24a148?style=for-the-badge)
+![Carbon](https://img.shields.io/badge/Carbon-Design%20System-0f62fe?style=flat-square&logo=ibm&logoColor=white)
+![IBM Plex](https://img.shields.io/badge/IBM%20Plex-Typography-161616?style=flat-square)
+![PowerPoint Free](https://img.shields.io/badge/PowerPoint-FREE%20ZONE-24a148?style=flat-square)
 
 # IBM Client Engineering Brasília
 
