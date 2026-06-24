@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/IBM_logo®_pos_blue60_RGB.png" width="40%">
+<img src="assets/banner.png" width="100%" alt="IBM Client Engineering Brasília">
 
 <br>
 
