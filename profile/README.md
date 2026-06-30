@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.png" width="100%" alt="IBM Client Engineering Brasília">
+<img src="https://raw.githubusercontent.com/ce-bsb/.github/main/profile/assets/banner.png" width="100%" alt="IBM Client Engineering Brasília">
 
 <br>
 
@@ -83,7 +83,7 @@ The **Presentation Factory** versions briefs, templates, client assets and model
 associations in Git, creating reproducible HTML presentation packages without
 local machine dependencies.
 
-- [Read the complete documentation](https://ce-bsb.github.io/docs/)
+- [Read the complete documentation](https://github.com/ce-bsb/presentation-factory/wiki)
 - [Access the Presentation Factory](https://github.com/ce-bsb/presentation-factory)
 - [View templates and client assets](https://github.com/ce-bsb/presentation-factory/tree/main/clients)
 - [View the model catalog](https://github.com/ce-bsb/presentation-factory/blob/main/catalog/models.toml)
@@ -93,7 +93,7 @@ local machine dependencies.
 ## Contributing
 
 ```bash
-git clone <repo>
+git clone https://github.com/ce-bsb/presentation-factory.git
 
 git checkout -b feat/new-deck
 ```
@@ -104,9 +104,9 @@ Open a Pull Request with screenshots.
 
 ## Resources
 
-- Carbon → https://carbondesignsystem.com
-- IBM Design → https://www.ibm.com/design/language
-- IBM Plex → https://www.ibm.com/plex
+- [Carbon Design System](https://carbondesignsystem.com)
+- [IBM Design Language](https://www.ibm.com/design/language)
+- [IBM Plex](https://www.ibm.com/plex)
 
 ---
 
