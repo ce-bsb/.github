@@ -12,8 +12,6 @@
 
 </div>
 
----
-
 ## About
 
 The **IBM Client Engineering Brasília** team builds presentations, demos and storytelling experiences using **web technologies** instead of traditional slide tools.
