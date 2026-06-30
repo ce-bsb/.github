@@ -5,37 +5,37 @@
 <br>
 
 ![Carbon](https://img.shields.io/badge/Carbon-Design%20System-0f62fe?style=flat-square&logo=ibm&logoColor=white)
-![IBM Plex](https://img.shields.io/badge/IBM%20Plex-Typography-161616?style=flat-square)
-![PowerPoint Free](https://img.shields.io/badge/PowerPoint-FREE%20ZONE-24a148?style=flat-square)
+![IBM Plex](https://img.shields.io/badge/IBM%20Plex-Tipografia-161616?style=flat-square)
+![Sem PowerPoint](https://img.shields.io/badge/PowerPoint-ZONA%20LIVRE-24a148?style=flat-square)
 
 # IBM Client Engineering Brasília
 
 </div>
 
-## About
+## Sobre
 
-The **IBM Client Engineering Brasília** team builds presentations, demos and storytelling experiences using **web technologies** instead of traditional slide tools.
+A equipe de **IBM Client Engineering Brasília** cria apresentações, demos e experiências de storytelling usando **tecnologias web** em vez de ferramentas tradicionais de slides.
 
-No `.pptx`. Versioned, responsive and interactive.
+Sem `.pptx`. Com versionamento, responsividade e interatividade.
 
 ---
 
-## Why Web Presentations?
+## Por Que Apresentações Web?
 
-| Traditional Slides | Web Stack |
+| Slides tradicionais | Stack web |
 |-------------------|------------|
-| Static | Interactive |
-| Binary files | Git versioning |
-| Fixed layouts | Responsive |
-| Limited animations | CSS & JS |
+| Estáticos | Interativos |
+| Arquivos binários | Versionamento com Git |
+| Layouts fixos | Responsivos |
+| Animações limitadas | CSS e JS |
 
 ---
 
-## Standards
+## Padrões
 
-### Typography
+### Tipografia
 
-Always use **IBM Plex**.
+Use sempre **IBM Plex**.
 
 ```bash
 npm install @ibm/plex
@@ -43,54 +43,54 @@ npm install @ibm/plex
 
 ### Design System
 
-Projects follow **Carbon Design System**.
+Os projetos seguem o **Carbon Design System**.
 
 ```bash
 npm install @carbon/react @carbon/styles
 ```
 
-## IBM Colors
+## Cores IBM
 
-### Blue
+### Azul
 
-| Swatch | Token | Hex |
+| Amostra | Token | Hex |
 |---|---|---|
-| ![](https://img.shields.io/badge/-%20-0f62fe?style=flat-square) | Blue 60 | `#0f62fe` |
-| ![](https://img.shields.io/badge/-%20-4589ff?style=flat-square) | Blue 50 | `#4589ff` |
-| ![](https://img.shields.io/badge/-%20-a6c8ff?style=flat-square) | Blue 30 | `#a6c8ff` |
+| ![](https://img.shields.io/badge/-%20-0f62fe?style=flat-square) | Azul 60 | `#0f62fe` |
+| ![](https://img.shields.io/badge/-%20-4589ff?style=flat-square) | Azul 50 | `#4589ff` |
+| ![](https://img.shields.io/badge/-%20-a6c8ff?style=flat-square) | Azul 30 | `#a6c8ff` |
 
-### Gray
+### Cinza
 
-| Swatch | Token | Hex |
+| Amostra | Token | Hex |
 |---|---|---|
-| ![](https://img.shields.io/badge/-%20-161616?style=flat-square) | Gray 100 | `#161616` |
-| ![](https://img.shields.io/badge/-%20-393939?style=flat-square) | Gray 80 | `#393939` |
-| ![](https://img.shields.io/badge/-%20-f4f4f4?style=flat-square) | Gray 10 | `#f4f4f4` |
+| ![](https://img.shields.io/badge/-%20-161616?style=flat-square) | Cinza 100 | `#161616` |
+| ![](https://img.shields.io/badge/-%20-393939?style=flat-square) | Cinza 80 | `#393939` |
+| ![](https://img.shields.io/badge/-%20-f4f4f4?style=flat-square) | Cinza 10 | `#f4f4f4` |
 
-### Alerts
+### Alertas
 
-| Swatch | Token | Hex |
+| Amostra | Token | Hex |
 |---|---|---|
-| ![](https://img.shields.io/badge/-%20-24a148?style=flat-square) | Success | `#24a148` |
-| ![](https://img.shields.io/badge/-%20-da1e28?style=flat-square) | Danger | `#da1e28` |
-| ![](https://img.shields.io/badge/-%20-ff832b?style=flat-square) | Warning | `#ff832b` |
+| ![](https://img.shields.io/badge/-%20-24a148?style=flat-square) | Sucesso | `#24a148` |
+| ![](https://img.shields.io/badge/-%20-da1e28?style=flat-square) | Perigo | `#da1e28` |
+| ![](https://img.shields.io/badge/-%20-ff832b?style=flat-square) | Atenção | `#ff832b` |
 
 ---
 
 ## Presentation Factory
 
-The **Presentation Factory** versions briefs, templates, client assets and model
-associations in Git, creating reproducible HTML presentation packages without
-local machine dependencies.
+O **Presentation Factory** versiona briefs, templates, assets de clientes e
+associações de modelos no Git, criando pacotes de apresentação HTML
+reprodutíveis sem dependências locais de máquina.
 
-- [Read the complete documentation](https://github.com/ce-bsb/presentation-factory/wiki)
-- [Access the Presentation Factory](https://github.com/ce-bsb/presentation-factory)
-- [View templates and client assets](https://github.com/ce-bsb/presentation-factory/tree/main/clients)
-- [View the model catalog](https://github.com/ce-bsb/presentation-factory/blob/main/catalog/models.toml)
+- [Leia a documentação completa](https://github.com/ce-bsb/presentation-factory/wiki)
+- [Acesse o Presentation Factory](https://github.com/ce-bsb/presentation-factory)
+- [Veja templates e assets de clientes](https://github.com/ce-bsb/presentation-factory/tree/main/clients)
+- [Veja o catálogo de modelos](https://github.com/ce-bsb/presentation-factory/blob/main/catalog/models.toml)
 
 ---
 
-## Contributing
+## Como Contribuir
 
 ```bash
 git clone https://github.com/ce-bsb/presentation-factory.git
@@ -98,11 +98,11 @@ git clone https://github.com/ce-bsb/presentation-factory.git
 git checkout -b feat/new-deck
 ```
 
-Open a Pull Request with screenshots.
+Abra um Pull Request com screenshots.
 
 ---
 
-## Resources
+## Recursos
 
 - [Carbon Design System](https://carbondesignsystem.com)
 - [IBM Design Language](https://www.ibm.com/design/language)
@@ -112,7 +112,7 @@ Open a Pull Request with screenshots.
 
 <div align="center">
 
-**Carbon · IBM Plex · Web Standards**
+**Carbon · IBM Plex · Padrões web**
 
 Zero `.pptx`
 
