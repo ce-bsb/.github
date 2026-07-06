@@ -1,17 +1,5 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/ce-bsb/.github/main/profile/assets/banner.png" width="100%" alt="IBM Client Engineering Brasília">
-
-<br>
-
-![Carbon](https://img.shields.io/badge/Carbon-Design%20System-0f62fe?style=flat-square&logo=ibm&logoColor=white)
-![IBM Plex](https://img.shields.io/badge/IBM%20Plex-Tipografia-161616?style=flat-square)
-![Sem PowerPoint](https://img.shields.io/badge/PowerPoint-ZONA%20LIVRE-24a148?style=flat-square)
-
-# IBM Client Engineering Brasília
-
-</div>
-
 ## Sobre
 
 A equipe de **IBM Client Engineering Brasília** cria apresentações, demos e experiências de storytelling usando **tecnologias web** em vez de ferramentas tradicionais de slides.
@@ -22,12 +10,12 @@ Sem `.pptx`. Com versionamento, responsividade e interatividade.
 
 ## Por Que Apresentações Web?
 
-| Slides tradicionais | Stack web |
-|-------------------|------------|
-| Estáticos | Interativos |
-| Arquivos binários | Versionamento com Git |
-| Layouts fixos | Responsivos |
-| Animações limitadas | CSS e JS |
+| Slides tradicionais   | Stack web             |
+| --------------------- | --------------------- |
+| Estáticos            | Interativos           |
+| Arquivos binários    | Versionamento com Git |
+| Layouts fixos         | Responsivos           |
+| Animações limitadas | CSS e JS              |
 
 ---
 
@@ -53,26 +41,26 @@ npm install @carbon/react @carbon/styles
 
 ### Azul
 
-| Amostra | Token | Hex |
-|---|---|---|
+| Amostra                                                         | Token   | Hex         |
+| --------------------------------------------------------------- | ------- | ----------- |
 | ![](https://img.shields.io/badge/-%20-0f62fe?style=flat-square) | Azul 60 | `#0f62fe` |
 | ![](https://img.shields.io/badge/-%20-4589ff?style=flat-square) | Azul 50 | `#4589ff` |
 | ![](https://img.shields.io/badge/-%20-a6c8ff?style=flat-square) | Azul 30 | `#a6c8ff` |
 
 ### Cinza
 
-| Amostra | Token | Hex |
-|---|---|---|
+| Amostra                                                         | Token     | Hex         |
+| --------------------------------------------------------------- | --------- | ----------- |
 | ![](https://img.shields.io/badge/-%20-161616?style=flat-square) | Cinza 100 | `#161616` |
-| ![](https://img.shields.io/badge/-%20-393939?style=flat-square) | Cinza 80 | `#393939` |
-| ![](https://img.shields.io/badge/-%20-f4f4f4?style=flat-square) | Cinza 10 | `#f4f4f4` |
+| ![](https://img.shields.io/badge/-%20-393939?style=flat-square) | Cinza 80  | `#393939` |
+| ![](https://img.shields.io/badge/-%20-f4f4f4?style=flat-square) | Cinza 10  | `#f4f4f4` |
 
 ### Alertas
 
-| Amostra | Token | Hex |
-|---|---|---|
-| ![](https://img.shields.io/badge/-%20-24a148?style=flat-square) | Sucesso | `#24a148` |
-| ![](https://img.shields.io/badge/-%20-da1e28?style=flat-square) | Perigo | `#da1e28` |
+| Amostra                                                         | Token     | Hex         |
+| --------------------------------------------------------------- | --------- | ----------- |
+| ![](https://img.shields.io/badge/-%20-24a148?style=flat-square) | Sucesso   | `#24a148` |
+| ![](https://img.shields.io/badge/-%20-da1e28?style=flat-square) | Perigo    | `#da1e28` |
 | ![](https://img.shields.io/badge/-%20-ff832b?style=flat-square) | Atenção | `#ff832b` |
 
 ---
@@ -111,9 +99,3 @@ Abra um Pull Request com screenshots.
 ---
 
 <div align="center">
-
-**Carbon · IBM Plex · Padrões web**
-
-Zero `.pptx`
-
-</div>
