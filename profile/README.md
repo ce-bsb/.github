@@ -14,10 +14,10 @@ Sem `.pptx`. Com versionamento, responsividade e interatividade.
 
 | Slides tradicionais   | Stack web             |
 | --------------------- | --------------------- |
-| Estáticos            | Interativos           |
-| Arquivos binários    | Versionamento com Git |
+| Estáticos             | Interativos           |
+| Arquivos binários     | Versionamento com Git |
 | Layouts fixos         | Responsivos           |
-| Animações limitadas | CSS e JS              |
+| Animações limitadas   | CSS e JS              |
 
 ---
 
